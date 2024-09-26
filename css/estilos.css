@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    /* border: 1px solid #d40000; */
+    width: 100%;
+    background-color: #615D5C;
+}
+.contain{
+    display: flex; 
+    justify-content: space-between;
+    /* border: 1px solid #000000; */
+}
+.parte-izquierda{
+display: flex;
+padding-left: 30px;
+align-items: center;
+}
+.p1{
+    padding: 3px;
+    color: white;
+}
+
+.parte-derecha{
+    height: 50px;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+}
+
+.p2{
+    padding-right: 6px;
+    color: #FFFF;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    align-items: center;
+    padding: 10px;
+    margin: 4px;
+
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 5px;
+    color: white;
+    background-color: #615D5C;
+}
+.barra{
+    height: 15px;
+    padding-left: 10px;
+}
+
+.contain{
+    display: flex;
+    padding-top: 10px;
+}
+.lateral{
+    background-color: #D9D9D9;
+    width: 20%;
+    height: 100vw;
+    padding-top: 10px;
+}
+.uno{
+    background-color: #615D5C;
+    height: 40px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+   
+}
+.uno h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.dos{
+    background-color: #615D5C;
+    height: 40px;
+}
+.dos h2 a {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.main{
+    background-color: #b5b4b6;
+    height: 100vw;
+    width: 85%;
+    margin-left: 5px;
+}
+/* parte carlos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    color: #3D30E0;
+    text-align: center;
+}
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+.calendar-header {
+    font-weight: bold;
+    text-align: center;
+}
+.calendar-day {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+}
+.calendar-day.highlight {
+    background-color: #fce7f3;
+    color: #db2777;
+}
+.notification {
+    background-color: #fef3c7;
+    border-left: 4px solid #f59e0b;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.materials {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.material {
+    text-align: center;
+    margin: 10px;
+}
+.material img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.header-image {
+    width: 15%;
+    height: 15;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* fin carlos */
+.barra-pequeña{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50px;
+}
+button{
+    padding-left: 10px;
+    background-color: #db2777;
+}
+
+.funedExcel{
+    max-height: 100%;
+    max-width: 100%;
+}
