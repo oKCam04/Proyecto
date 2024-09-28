@@ -91,6 +91,17 @@ nav ul li{
     text-decoration: none;
     color: inherit;
 }
+.tres{
+    background-color: #615D5C;
+    height: 40px;
+}
+.tres h2 a {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    text-decoration: none;
+    color: inherit;
+}
 
 .main{
     background-color: #b5b4b6;
